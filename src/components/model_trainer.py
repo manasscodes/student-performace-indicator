@@ -2,6 +2,7 @@ import os
 import sys
 from dataclasses import dataclass
 
+# pyrefly: ignore [missing-import]
 from catboost import CatBoostRegressor
 from sklearn.ensemble import (
     AdaBoostRegressor,
@@ -12,6 +13,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.tree import DecisionTreeRegressor
+# pyrefly: ignore [missing-import]
 from xgboost import XGBRegressor
 
 from src.exception import CustomException
